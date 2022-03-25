@@ -15,7 +15,7 @@ params:
     - name: github
       url: "https://github.com/"
 
-params.utterances:
+[params.utterances]
   owner: "guobaozhi"
   repo: "guobaozhi/bozBlog"
 
