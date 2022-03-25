@@ -17,12 +17,6 @@ params:
 
   comments: true
 
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
-
   cover:
     linkfullImages: true
 
@@ -30,7 +24,13 @@ outputs:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
-  
+  ShowCodeCopyButtons: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
 
 menu:
   main:
