@@ -1,9 +1,30 @@
 baseURL: https://merry-duckanoo-a1c829.netlify.app/
 languageCode: en-us
 title: Boz's Blog
+paginate: 5
 theme: PaperMod
 
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
 params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: ["Me", "You"] # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
   homeInfoParams:
     Title: "Hello Stranger"
     Content: Welcome to my blog. Here you'll find a lot of cool information about a lot of stuff.
@@ -15,17 +36,29 @@ params:
     - name: github
       url: "https://github.com/"
 
-  comments: true
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
 
   cover:
     linkfullImages: true
+
+  editPost:
+    URL: "https://github.com/https://github.com/guobaozhi/bozBlog.git/content"
+    Text: "Suggest Changes" # edit text
 
   ShowBreadCrumbs: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
-  TocOpen: true
+  showToc: true
+  TocOpen: false
+  comments: true
 
   fuseOpts:
     isCaseSensitive: false
