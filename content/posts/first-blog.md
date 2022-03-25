@@ -6,11 +6,10 @@ cover:
     image: img/jeremy-bisho.jpg
     alt: 'this is a post iamge'
     caption: 'this is the caption'
-tags: ["html", "css"]
-categroies: "tech"
+tags: ["生活", "心理"]
+categroies: "psychology"
 ---
 
-# 工作之余，你也得找到自己的”业务激情
 尝试以下5个建议：
 1. 寻找与你价值观相一致且能鼓励阐述和扩展价值观的活动；
 2. 考虑到自己的生活状况，寻找具有可行性的活动；
