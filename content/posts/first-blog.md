@@ -10,5 +10,6 @@ tags: ["html", "css"]
 categroies: "tech"
 ---
 
-hi, there. This is my first blog on hugo.
-
+# hi, there. This is my first blog on hugo.
+## this is headline 2
+## this is headline 3
