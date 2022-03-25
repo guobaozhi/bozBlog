@@ -7,7 +7,7 @@ cover:
     alt: 'this is a post iamge'
     caption: 'this is the caption'
 tags: ["生活", "心理"]
-categroies: "psychology"
+categories: ["psychology"]
 ---
 
 尝试以下5个建议：
