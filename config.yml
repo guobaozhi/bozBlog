@@ -26,8 +26,8 @@ params:
   disableThemeToggle: false
 
   homeInfoParams:
-    Title: "Hello Stranger"
-    Content: Welcome to my blog. Here you'll find a lot of cool information about a lot of stuff.
+    Title: "顺境修身，逆境养心"
+    Content: "愿我们既能知道很多道理，也能过好自己的一生。"
   SocialIcons:
     - name: facebook
       url: "https://facewbook.com/"
