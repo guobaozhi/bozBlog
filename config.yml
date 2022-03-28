@@ -4,16 +4,38 @@ title: Boz's Blog
 paginate: 5
 theme: PaperMod
 
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
 
 googleAnalytics: UA-123-45
 
 minify:
     disableXML: true
     minifyOutput: true
+
+languages:
+  en:
+    baseURL: https://merry-duckanoo-a1c829.netlify.app/
+    languageName: English
+    staticDir2: content
+    title: In English
+    weight: 2
+  "PaperMod":
+    baseURL: https://merry-duckanoo-a1c829.netlify.app/
+    languageName: Norsk
+    staticDir:
+    - content
+    - static
+    title: PaperMod
+    weight: 1
+
+staticDir:
+- static
+- content
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -36,6 +58,8 @@ params:
     - name: github
       url: "https://github.com/"
 
+
+
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
@@ -50,7 +74,7 @@ params:
     linkfullImages: true
 
   editPost:
-    URL: "https://github.com/https://github.com/guobaozhi/bozBlog.git/content"
+    URL: "https://github.com/guobaozhi/bozBlog.git/content"
     Text: "Suggest Changes" # edit text
 
   ShowBreadCrumbs: true
@@ -62,6 +86,7 @@ params:
   TocOpen: false
   comments: true
 
+# search page
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
