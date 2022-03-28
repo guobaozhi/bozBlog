@@ -43,6 +43,7 @@ params:
       SiteVerificationTag: "XYZabc"
     yandex:
       SiteVerificationTag: "XYZabc"
+    
 
   cover:
     linkfullImages: true
