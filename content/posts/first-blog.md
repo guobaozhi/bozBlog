@@ -5,8 +5,8 @@ draft: false
 cover:
     image: img/jeremy-bisho.jpg
     alt: 'this is a post iamge'
-    caption: 'this is the caption'
-tags: ["生活", "心理"]
+    caption: 'unsplash by jeremy-bisho'
+tags: ["思考", "心理"]
 categories: ["psychology"]
 ---
 

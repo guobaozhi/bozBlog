@@ -44,6 +44,7 @@ params:
     yandex:
       SiteVerificationTag: "XYZabc"
     
+    
 
   cover:
     linkfullImages: true
