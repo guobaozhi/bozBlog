@@ -17,26 +17,6 @@ minify:
     disableXML: true
     minifyOutput: true
 
-languages:
-  en:
-    baseURL: https://merry-duckanoo-a1c829.netlify.app/
-    languageName: English
-    staticDir2: content
-    title: In English
-    weight: 2
-  "PaperMod":
-    baseURL: https://merry-duckanoo-a1c829.netlify.app/
-    languageName: Norsk
-    staticDir:
-    - content
-    - static
-    title: PaperMod
-    weight: 1
-
-staticDir:
-- static
-- content
-
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "my blog"
