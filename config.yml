@@ -55,7 +55,7 @@ params:
     linkfullImages: true
 
   editPost:
-    URL: "https://github.com/guobaozhi/bozBlog/tree/master/content"
+    URL: "https://github.com/guobaozhi/bozBlog/tree/master/content/posts"
     Text: "Suggest Changes" # edit text
 
   ShowBreadCrumbs: true
@@ -64,7 +64,7 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   showToc: true
-  TocOpen: false
+  TocOpen: true
   comments: true
 
 # search page
