@@ -55,7 +55,7 @@ params:
     linkfullImages: true
 
   editPost:
-    URL: "https://github.com/guobaozhi/bozBlog.git/content"
+    URL: "https://github.com/guobaozhi/bozBlog/tree/master/content"
     Text: "Suggest Changes" # edit text
 
   ShowBreadCrumbs: true
