@@ -1,0 +1,103 @@
+baseURL: https://merry-duckanoo-a1c829.netlify.app/
+languageCode: en-us
+title: Boz's Blog
+paginate: 5
+theme: PaperMod
+
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+# params set up
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "my blog"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  homeInfoParams:
+    Title: "顺境修身，逆境养心"
+    Content: "愿我们既能知道很多道理，也能过好自己的一生。"
+  SocialIcons:
+    - name: facebook
+      url: "https://facewbook.com/"
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: github
+      url: "https://github.com/"
+
+
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+    
+    
+
+  cover:
+    linkfullImages: true
+
+  editPost:
+    URL: "https://github.com/guobaozhi/bozBlog/tree/master/content/posts"
+    Text: "Suggest Changes" # edit text
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  showToc: true
+  TocOpen: true
+  comments: true
+
+# search page
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30 
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40 
