@@ -51,8 +51,8 @@ languages:
             url: posts/read
           - name: 🏖生活
             url: posts/life
-          # - name: 🌹素履的博客
-          #   url: https://www.xyming108.top
+          - name: ✏️设计
+            url: posts/blog
       menu:
         main:
           - identifier: search
