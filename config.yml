@@ -35,7 +35,8 @@ languages:
       languageName: "English"
       # contentDir: content/english
       weight: 1
-      profileMode:
+      # profileMode:
+      homeInfoParams:
         enabled: true
         title: "顺境修身，逆境养心"
         subtitle: "💡愿我们既能知道很多道理，也能过好自己的一生。"
@@ -44,7 +45,7 @@ languages:
         # imageTitle: 
         # imageWidth: 150
         # imageHeight: 150
-        buttons:
+        buttons: # 首页导航菜单
           - name: 👨🏻‍💻技术
             url: posts/tech
           - name: 📕阅读
@@ -146,7 +147,7 @@ params:
         # - name: Phone
         #   url: "img/phone.png"
         - name: email
-          url: "mailto:1931559710@qq.com"
+          url: "mailto:261658157@qq.com"
         - name: RSS
           url: "index.xml"
     cover:
