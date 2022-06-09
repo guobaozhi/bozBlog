@@ -45,8 +45,8 @@ languages:
         # imageWidth: 150
         # imageHeight: 150
         buttons: # 首页导航菜单
-          - name: 👨🏻‍💻技术
-            url: posts/tech
+          # - name: 👨🏻‍💻技术
+          #   url: posts/tech
           - name: 📕阅读
             url: posts/read
           - name: 🏖生活
