@@ -17,7 +17,7 @@ markup:
     startLevel: 1
 
 # default language
-defaultContentLanguage = zh
+# defaultContentLanguage = zh
 
 # Multi-lingual mode config
 # There are different options to translate files
