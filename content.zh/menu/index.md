@@ -4,8 +4,8 @@ headless: true
 - UED
 - [UX]({{< relref "/docs/ued/ux" >}})
 
-  - [3rd]({{< relref "/docs/ued/ux/3rd-level" >}})
-    - [4rd]({{< relref "/docs/ued/ux/3rd-level/4th-level" >}})
+  - [data visualization]({{< relref "/docs/ued/ux/data visualization" >}})
+  - [guideline]({{< relref "/docs/ued/ux/guideline" >}})
 - [UI]({{< relref "/docs/ued/ui" >}})
 
   `<br />`
