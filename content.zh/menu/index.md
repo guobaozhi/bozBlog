@@ -2,11 +2,11 @@
 headless: true
 ---
 - UED
-- [UX]({{< relref "/docs/ued/UX" >}})
+- [UX]({{< relref "/docs/UED/UX" >}})
 
   - [Data Visualization]({{< relref "/docs/ued/UX/Data Visualization" >}})
-  - [Guideline]({{< relref "/docs/ued/XU/Guideline" >}})
-- [UI]({{< relref "/docs/ued/UI" >}})
+  - [Guideline]({{< relref "/docs/UED/UX/Guideline" >}})
+- [UI]({{< relref "/docs/UED/UI" >}})
 
   `<br />`
 - Design
@@ -14,4 +14,4 @@ headless: true
 
   `<br />`
 - Psychology
-- [Psychology]({{< relref "/docs/example/Psychology" >}})
+- [Psychology]({{< relref "/docs/Psychology" >}})
