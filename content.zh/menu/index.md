@@ -1,14 +1,3 @@
 ---
 headless: true
 ---
-- **UED**
-  - [ux]({{< relref "/posts/ux" >}})
-  - [ui]({{< relref "/posts/ui" >}})
-- `<br />`
-- **Design**
-  - 品牌规范
-  - [brandGuide]({{< relref "/posts/brandGuide" >}})
-- `<br />`
-- **Psychology**
-  - 认知心理
-  - [recognition]({{< relref "/posts/recognition" >}})
