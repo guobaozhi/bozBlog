@@ -1,0 +1,15 @@
+{
+  "name": "Hugo Book",
+  "short_name": "Hugo Book",
+  "start_url": "/docs-use-hugo-with-hugobook-theme/",
+  "scope": "/docs-use-hugo-with-hugobook-theme/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/docs-use-hugo-with-hugobook-theme/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,17 +1,14 @@
 ---
 headless: true
 ---
-- UED
-- [UX]({{< relref "/docs/UED/UX" >}})
-
-  - [Data Visualization]({{< relref "/docs/ued/UX/Data Visualization" >}})
-  - [Guideline]({{< relref "/docs/UED/UX/Guideline" >}})
-- [UI]({{< relref "/docs/UED/UI" >}})
-
-  `<br />`
-- Design
-- [Guideline]({{< relref "/docs/design/Guideline" >}})
-
-  `<br />`
-- Psychology
-- [Psychology]({{< relref "/docs/Psychology" >}})
+- **UED**
+  - [ux]({{< relref "/posts/ux" >}})
+  - [ui]({{< relref "/posts/ui" >}})
+- `<br />`
+- **Design**
+  - 品牌规范
+  - [brandGuide]({{< relref "/posts/brandGuide" >}})
+- `<br />`
+- **Psychology**
+  - 认知心理
+  - [recognition]({{< relref "/posts/recognition" >}})

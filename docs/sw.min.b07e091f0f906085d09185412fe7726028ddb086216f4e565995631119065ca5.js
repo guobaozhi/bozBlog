@@ -1,0 +1,1 @@
+if(navigator.serviceWorker){navigator.serviceWorker.register("/docs-use-hugo-with-hugobook-theme/sw.js",{scope:"/docs-use-hugo-with-hugobook-theme/"});}
