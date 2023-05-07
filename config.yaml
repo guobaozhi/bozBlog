@@ -46,14 +46,14 @@ menu:
     - name: "Hugo Themes"
       url: "https://themes.gohugo.io/hugo-book/"
       weight: 20
-  # page categories & tags    
-  # main:
-  #   - name: "Categories"
-  #     url:"/categories"
-  #     weight: 10
-  #   - name: "Tags"
-  #     url:"/tags"
-  #     weight: 20
+  page categories & tags    
+  main:
+    - name: "Categories"
+      url:"/categories"
+      weight: 10
+    - name: "Tags"
+      url:"/tags"
+      weight: 20
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
