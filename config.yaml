@@ -1,7 +1,7 @@
 baseURL: https://ubozo.tech
 languageCode: en-us
 title: Boz Blog
-theme: hugo-theme-mini
+theme: mini
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
 defaultContentLanguage: zh
@@ -12,7 +12,7 @@ hasCJKLanguage: true
 permalinks:
   posts: /posts/:title/
 
-paginate: 3
+pagination.pagerSize: 3
 
 googleAnalytics: your-google-analytics-id
 disqusShortname: your-disqus-shortname
