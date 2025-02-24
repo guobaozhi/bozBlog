@@ -2,7 +2,7 @@
 
 baseURL = 'https://ubozo.tech'
 title = 'Boz Blog'
-theme = 'hugo-book'
+theme = 'mini'
 
 # 默认语言
 defaultContentLanguage = 'zh'
