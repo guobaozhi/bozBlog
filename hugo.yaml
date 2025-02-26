@@ -22,10 +22,10 @@ laguages:
           weight: 30
         - identifier: blog
           name: Blog
-          url: /en/blog/
+          url: /en/posts/
           weight: 40
         - identifier: tags
-          name: �️
+          name: Tags
           url: /en/tags/
           weight: 50
         - identifier: search
