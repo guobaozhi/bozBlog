@@ -2,8 +2,104 @@ baseURL: "https://ubozo.tech/"
 title: boz Blog
 languageCode: en-us
 defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+laguages:
+  en:
+    languageName: English
+    memu:
+      main:
+      - identifier: about
+          name: About
+          url: /en/about/
+          weight: 10
+        - identifier: project
+          name: Project
+          url: /en/project/
+          weight: 20
+        - identifier: resume
+          name: Resume
+          url: /en/resume.pdf
+          weight: 30
+        - identifier: blog
+          name: Blog
+          url: /en/blog/
+          weight: 40
+        - identifier: tags
+          name: �️
+          url: /en/tags/
+          weight: 50
+        - identifier: search
+          name: Search
+          url: /en/search/
+          weight: 60
+    weight: 1
+    contentDir: content/en
+
+    params:
+      languageName: English
+      profileMode:
+        enabled: true
+        title: boz Blog
+        subtitle: "become a better developer"
+        imageUrl: "img/notion-avatar.png"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: my image
+        buttons:
+          - name: Project
+            url: en/project
+          - name: log
+            url: en/blog/tech/
+          - name: Ruseme
+            url: en/resume.pdf
+
+    socialIcons:
+      - name: github
+        url: "https://github.com/guobaozhi"
+      - name: email
+        url: "mailto:guobaozhi@gmail.com"
+
+  zh:
+    languageName: 中文
+    languageCode: zh
+    contentDir: content/zh
+    menu:
+      main:
+        - identifier: about
+          name: 关于
+          url: /zh/about/
+          weight: 10
+        - identifier: blog
+          name: 博客
+          url: /zh/blog/
+          weight: 20
+        - identifier: tags
+          name: 标签
+          url: /zh/tags/
+          weight: 30
+        - identifier: search
+          name: 搜索
+          url: /zh/search/
+          weight: 40
+
+    params:
+      homeInfoParams:
+        enabled: true
+        Title: boz's Blog
+        Content: const desc = "become a better developer";
+        imageUrl: 'img/notion-avatar.png'
+        imageWidth: 120
+        imageHeight: 120
+    socialIcons:
+      - name: github
+        url: 'https://github.com/guobaizhi'
+      - name: email
+        url: 'mailto:guobaozhi@gmail.com'
+
 pagerSize : 5
 theme: PaperMod
+
+enableEmoji: true
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -16,10 +112,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: boz Blog
+  description: "welcome to boz Blog"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: boz
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -58,9 +154,9 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
+    enabled: true # needs to be explicitly set
+    title: boz Blog
+    subtitle: "become a better developer"
     imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
