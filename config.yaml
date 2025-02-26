@@ -42,17 +42,18 @@ languages:
       languageName: English
       profileMode:
         enabled: true
-        title: boz Blog
-        subtitle: "become a better developer"
+        title: boz's Blog
+        subtitle: "become better"
         imageUrl: "img/notion-avatar.png"
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
+        # home page buttons
         buttons:
+          - name: Blog
+            url: en/posts/tech/
           - name: Project
             url: en/project
-          - name: log
-            url: en/posts/tech/
           # - name: Ruseme
           #   url: en/resume.pdf
 
@@ -84,15 +85,25 @@ languages:
           name: 搜索
           url: /zh/search/
           weight: 40
+        - identifier: archive
+          name: 归档
+          url: /zh/archive/
+          weight: 50
 
     params:
       homeInfoParams:
         enabled: true
-        Title: boz's Blog
-        Content: const desc = "become a better developer"
-        imageUrl: "img/notion-avatar.png"
-        imageWidth: 120
-        imageHeight: 120
+        Title: "Hi there \U0001F44B"
+        Content: "知识的搬运工"
+        imageUrl: "img/notion-avatar-copy.png"
+        imageTitle: my image
+        imageWidth: 100
+        imageHeight: 100
+        buttons:
+          - name: 博客
+            url: zh/blog/
+          - name: 标签
+            url: zh/tags/
     socialIcons:
       - name: github
         url: 'https://github.com/guobaizhi'
@@ -156,24 +167,24 @@ params:
     iconHeight: 35
 
   # profile-mode
-  profileMode:
-    enabled: true # needs to be explicitly set
-    title: boz Blog
-    subtitle: "become a better developer"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+  # profileMode:
+  #   enabled: true # needs to be explicitly set
+  #   title: boz's Blog
+  #   subtitle: "become a better developer"
+  #   imageUrl: "<img location>"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  #   imageTitle: my image
+  #   buttons:
+  #     - name: Posts
+  #       url: posts
+  #     - name: Tags
+  #       url: tags
 
   # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+  # homeInfoParams:
+  #   Title: "Hi there \U0001F44B"
+  #   Content: Welcome to my blog
 
   socialIcons:
     - name: x
