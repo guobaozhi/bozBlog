@@ -3,23 +3,13 @@ title: boz Blog
 languageCode: en-us
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
-laguages:
+languages:
   en:
     languageName: English
-    memu:
+    languageCode: en
+    contentDir: content/en
+    menu:
       main:
-      - identifier: about
-          name: About
-          url: /en/about/
-          weight: 10
-        - identifier: project
-          name: Project
-          url: /en/project/
-          weight: 20
-        - identifier: resume
-          name: Resume
-          url: /en/resume.pdf
-          weight: 30
         - identifier: blog
           name: Blog
           url: /en/posts/
@@ -32,8 +22,21 @@ laguages:
           name: Search
           url: /en/search/
           weight: 60
-    weight: 1
-    contentDir: content/en
+        - identifier: about
+          name: About
+          url: /en/about/
+          weight: 10
+        - identifier: project
+          name: Project
+          url: /en/project/
+          weight: 20
+        # - identifier: resume
+        #   name: Resume
+        #   url: /en/resume.pdf
+        # weight: 30
+
+    # weight: 1
+    # contentDir: content/en
 
     params:
       languageName: English
@@ -49,9 +52,9 @@ laguages:
           - name: Project
             url: en/project
           - name: log
-            url: en/blog/tech/
-          - name: Ruseme
-            url: en/resume.pdf
+            url: en/posts/tech/
+          # - name: Ruseme
+          #   url: en/resume.pdf
 
     socialIcons:
       - name: github
@@ -86,8 +89,8 @@ laguages:
       homeInfoParams:
         enabled: true
         Title: boz's Blog
-        Content: const desc = "become a better developer";
-        imageUrl: 'img/notion-avatar.png'
+        Content: const desc = "become a better developer"
+        imageUrl: "img/notion-avatar.png"
         imageWidth: 120
         imageHeight: 120
     socialIcons:

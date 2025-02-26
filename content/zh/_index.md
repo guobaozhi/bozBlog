@@ -1,4 +1,4 @@
 ---
 hidemeta: true
-title: home
+title: 首页
 ---
