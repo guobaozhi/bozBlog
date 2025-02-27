@@ -1,4 +1,4 @@
-baseURL: "http://www.ubozo.tech/"
+baseURL: "https://www.ubozo.tech/"
 # baseURL: "https://bozblog.netlify.app"
 title: boz Blog
 languageCode: en-us
