@@ -111,7 +111,7 @@ languages:
         url: 'mailto:guobaozhi@gmail.com'
 
 pagerSize : 5
-theme: "github.com/adityatelange/hugo-PaperMod"
+theme: PaperMod
 
 enableEmoji: true
 
