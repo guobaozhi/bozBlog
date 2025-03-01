@@ -6,7 +6,7 @@ pagerSize: 5
 theme: PaperMod
 
 # mulitlingual language settings
-defaultContentLanguage: en # default content language
+defaultContentLanguage: zh # default content language
 defaultContentLanguageInSubdir: true # put default content in subdirectory
 
 languages:
