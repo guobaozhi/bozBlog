@@ -5,6 +5,104 @@ pagerSize: 5
 
 theme: PaperMod
 
+# mulitlingual language settings
+defaultContentLanguage: en # default content language
+defaultContentLanguageInSubdir: true # put default content in subdirectory
+
+languages:
+  en:
+    languageName: "English"
+    languageCode: en
+    contentDir: content/en
+    menu:
+    main:
+      - identifier: about
+        name: About
+        url: /en/about/
+        weight: 10
+      - identifier: project
+        name: Project
+        url: /en/project/
+        weight: 20
+      - identifier: resume
+        name: Resume
+        url: /en/resume
+        weight: 30
+      - identifier: blog
+        name: Blog
+        url: /en/blog/
+        weight: 40
+      - identifier: tags
+        name: 🕹️
+        url: /en/tags/
+        weight: 50
+      - identifier: search
+        name: Search
+        url: /en/search/
+        weight: 60
+    params:
+      profileMode:
+        enabled: true
+        title: boz's Blog
+        subtitle: Little squirrel Hopping around
+        imageUrl: 'img/notion-avatar.png'
+        imageWidth: 150
+        imageHeight: 150
+        buttons:
+          - name: Project
+            url: /en/project/
+          - name: Resume
+            url: /en/resume.pdf
+          - name: Log
+            url: /en/blog/tech/log/
+      socialIcons:
+        - name: github
+          url: 'https://github.com/guobaozhi/'
+        - name: linkedin
+          url: 'https://www.linkedin.com/'
+        - name: email
+          url: 'mailto:guobaozhi@gmail.com'
+  zh:
+    languageName: "中文"
+    languageCode: zh
+    contentDir: content/zh
+    menu:
+      main:
+        - identifier: about
+          name: 关于
+          url: /zh/about/
+          weight: 10
+        - identifier: log
+          name: 建站
+          url: /zh/log/
+          weight: 20
+        - identifier: posts
+          name: 博客
+          url: /zh/posts/
+          weight: 30
+        - identifier: tags
+          name: 🕹️
+          url: /zh/tags/
+          weight: 40
+        - identifier: search
+          name: 搜索
+          url: /zh/search/
+          weight: 50
+    params:
+      homeInfoParams:
+        enabled: true
+        Title: boz's Blog
+        Content:  "become a better me"
+        imageUrl: 'img/notion-avatar.png'
+        imageWidth: 110
+        imageHeight: 110
+      socialIcons:
+        - name: github
+          url: 'https://github.com/guobaozhi/'
+        - name: email
+          url: 'mailto:guobaozhi@gmail.com'
+
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
