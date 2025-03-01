@@ -72,22 +72,18 @@ languages:
           name: 关于
           url: /zh/about/
           weight: 10
-        - identifier: log
-          name: 建站
-          url: /zh/log/
-          weight: 20
         - identifier: posts
           name: 博客
           url: /zh/posts/
-          weight: 30
+          weight: 20
         - identifier: tags
           name: 🕹️
           url: /zh/tags/
-          weight: 40
+          weight: 30
         - identifier: search
           name: 搜索
           url: /zh/search/
-          weight: 50
+          weight: 40
     params:
       homeInfoParams:
         enabled: true

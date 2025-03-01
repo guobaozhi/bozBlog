@@ -1,4 +1,4 @@
 ---
 hidemeta: true
-title: Home
+title: Resume
 ---
