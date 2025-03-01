@@ -33,12 +33,16 @@ languages:
           url: /en/blog/
           weight: 40
         - identifier: tags
-          name: 🕹️
+          name: Tags
           url: /en/tags/
           weight: 50
         - identifier: search
           name: Search
           url: /en/search/
+          weight: 70
+        - identifier: archive
+          name: Archive
+          url: /en/archive/
           weight: 60
     params:
       profileMode:
@@ -77,12 +81,16 @@ languages:
           url: /zh/posts/
           weight: 20
         - identifier: tags
-          name: 🕹️
+          name: 标签
           url: /zh/tags/
           weight: 30
         - identifier: search
           name: 搜索
           url: /zh/search/
+          weight: 50
+        - identifier: archive
+          name: 归档
+          url: /zh/archive/
           weight: 40
     params:
       homeInfoParams:
