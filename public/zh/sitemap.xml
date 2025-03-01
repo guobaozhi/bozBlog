@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/zh/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +14,34 @@
                 hreflang="zh"
                 href="http://localhost:1313/zh/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/zh/tags/hugo/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zh/posts/template_front_matter/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zh/tags/papermod/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zh/tags/projects/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zh/tags/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/posts/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/zh/categories/</loc>
     <xhtml:link
@@ -26,16 +55,28 @@
                 href="http://localhost:1313/zh/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/tags/</loc>
+    <loc>http://localhost:1313/zh/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="http://localhost:1313/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/tags/"
+                href="http://localhost:1313/zh/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/search/"
                 />
   </url>
 </urlset>

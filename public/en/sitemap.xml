@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/blog/</loc>
+  </url><url>
     <loc>http://localhost:1313/en/</loc>
     <xhtml:link
                 rel="alternate"
@@ -26,6 +40,22 @@
                 href="http://localhost:1313/en/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/project/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/resume/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/search/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -37,5 +67,7 @@
                 hreflang="en"
                 href="http://localhost:1313/en/tags/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/blog/tech/</loc>
   </url>
 </urlset>
