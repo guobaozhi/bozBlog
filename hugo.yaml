@@ -1,4 +1,5 @@
-baseURL: "https://hugo-boz-site.netlify.app/"
+# baseURL: "https://hugo-boz-site.netlify.app/"
+baseURL: "https://ubozo.tech/"
 title: ExampleSite
 pagerSize: 5
 
