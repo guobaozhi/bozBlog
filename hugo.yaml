@@ -88,7 +88,7 @@ languages:
       homeInfoParams:
         enabled: true
         Title: boz's Blog
-        Content:  "become a better me"
+        Content:  "知识的搬运工"
         imageUrl: 'img/notion-avatar.png'
         imageWidth: 110
         imageHeight: 110
