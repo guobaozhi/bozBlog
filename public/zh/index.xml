@@ -14,11 +14,11 @@
     <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo &#43; blog &#43; template</title>
+      <title>开篇</title>
       <link>http://localhost:1313/zh/posts/template_front_matter/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/zh/posts/template_front_matter/</guid>
-      <description>&lt;p&gt;这里是测试模板&lt;/p&gt;</description>
+      <description>&lt;p&gt;这里留下些生活、工作、思考的痕迹。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

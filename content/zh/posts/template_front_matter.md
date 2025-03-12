@@ -10,8 +10,8 @@ comments: true
 cover:
   alt: ''
   caption: ''
-  image: ''
-  relative: false
+  image: 'posts/cover.jpg'
+  relative: true
 date: '2025-03-01'
 description: '' # 为页头简介，省略
 disableShare: true
@@ -21,9 +21,9 @@ lastmod: '2024-01-15'
 showToc: true
 showbreadcrumbs: true
 slug: ''
-title: Hugo + blog + template
-weight: null # 若置顶则为对应数字
+title: 开篇
+weight: 1 # 若置顶则为对应数字
 ---
 
 
-这里是测试模板
+这里留下些生活、工作、思考的痕迹。
