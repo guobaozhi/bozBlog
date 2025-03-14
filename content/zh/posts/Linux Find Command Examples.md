@@ -1,8 +1,6 @@
 ---
 Tags: # 标签数量丰俭由人
-  - PaperMod
-  - Hugo
-  - projects
+  - Linux
 TocOpen: true
 author:
   - boz
@@ -22,7 +20,7 @@ showToc: true
 showbreadcrumbs: true
 slug: ''
 title: linux find command examples
-weight: 1 # 若置顶则为对应数字
+weight: null # 若置顶则为对应数字
 ---
 
 
