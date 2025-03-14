@@ -1,6 +1,8 @@
 ---
 Tags: # 标签数量丰俭由人
-  - Linux
+  - PaperMod
+  - Hugo
+  - projects
 TocOpen: true
 author:
   - boz
@@ -8,19 +10,19 @@ comments: true
 cover:
   alt: ''
   caption: ''
-  image: ''
+  image: 'posts/cover.jpg'
   relative: true
-date: '2025-03-14’
+date: '2025-03-01'
 description: '' # 为页头简介，省略
 disableShare: true
-draft: false
+draft: false # 未发布时为 true
 hidemeta: false
-lastmod: '2025-03-14'
+lastmod: '2024-01-15'
 showToc: true
 showbreadcrumbs: true
 slug: ''
-title: Linux Find command examples
-weight:  null # 若置顶则为对应数字
+title: linux find command examples
+weight: 1 # 若置顶则为对应数字
 ---
 
 

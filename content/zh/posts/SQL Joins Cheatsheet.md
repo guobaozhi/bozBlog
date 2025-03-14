@@ -1,6 +1,8 @@
 ---
 Tags: # 标签数量丰俭由人
-  - SQL
+  - PaperMod
+  - Hugo
+  - projects
 TocOpen: true
 author:
   - boz
@@ -10,17 +12,17 @@ cover:
   caption: ''
   image: 'posts/cover.jpg'
   relative: true
-date: '2025-03-14’
+date: '2025-03-01'
 description: '' # 为页头简介，省略
 disableShare: true
-draft: false
+draft: false # 未发布时为 true
 hidemeta: false
-lastmod: '2025-03-14'
+lastmod: '2024-01-15'
 showToc: true
 showbreadcrumbs: true
 slug: ''
-title: SQL Joins Cheatsheet
-weight:  null # 若置顶则为对应数字
+title: sql joins cheatsheet
+weight: 1 # 若置顶则为对应数字
 ---
 
 # SQL Joins Cheatsheet
