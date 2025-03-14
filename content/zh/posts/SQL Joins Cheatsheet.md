@@ -20,7 +20,7 @@ showToc: true
 showbreadcrumbs: true
 slug: ''
 title: SQL Joins Cheatsheet
-weight:  NULL # 若置顶则为对应数字
+weight:  null # 若置顶则为对应数字
 ---
 
 # SQL Joins Cheatsheet

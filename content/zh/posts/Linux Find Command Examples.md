@@ -8,7 +8,7 @@ comments: true
 cover:
   alt: ''
   caption: ''
-  image: 'posts/cover.jpg'
+  image: ''
   relative: true
 date: '2025-03-14’
 description: '' # 为页头简介，省略
@@ -20,7 +20,7 @@ showToc: true
 showbreadcrumbs: true
 slug: ''
 title: Linux Find command examples
-weight:  NULL # 若置顶则为对应数字
+weight:  null # 若置顶则为对应数字
 ---
 
 
