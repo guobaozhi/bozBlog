@@ -22,6 +22,8 @@ slug: ''
 title: Linux Find command examples
 weight:  NULL # 若置顶则为对应数字
 ---
+
+
 # 1. Find Files by Name
 ```Linux
 find /home/user/documents -name "example.txt"
