@@ -89,6 +89,4 @@ RIGHT JOIN T2 ON T1.NAME = T2.NAME
 WHERE T1.ID IS NULL
 ```
 
-link: [sysxplore.com][1]
-
-[1]:	sysxplore.com "sysxplore.com"
+link: sysxplore.com

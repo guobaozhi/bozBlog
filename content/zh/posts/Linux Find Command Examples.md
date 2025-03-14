@@ -151,6 +151,4 @@ find / -perm /a=r -not -perm /a=w
 find /home/user -name "*config*"
 ```
 
-link: [sysxplore.com][1]
-
-[1]:	sysxplore.com "sysxplore.com"
+link: sysxplore.com
