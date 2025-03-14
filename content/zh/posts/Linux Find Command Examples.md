@@ -10,12 +10,12 @@ cover:
   caption: ''
   image: 'posts/cover.jpg'
   relative: true
-date: '2025-03-01'
+date: '2025-03-14'
 description: '' # 为页头简介，省略
 disableShare: true
 draft: false # 未发布时为 true
 hidemeta: false
-lastmod: '2024-01-15'
+lastmod: '2025-03-14'
 showToc: true
 showbreadcrumbs: true
 slug: ''
