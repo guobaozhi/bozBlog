@@ -19,7 +19,7 @@ lastmod: '2025-03-14'
 showToc: true
 showbreadcrumbs: true
 slug: ''
-title: sql joins cheatsheet
+title:  SQL Joins Cheatsheet
 weight: null # 若置顶则为对应数字
 ---
 
