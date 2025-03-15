@@ -19,7 +19,7 @@ lastmod: '2025-03-14'
 showToc: true
 showbreadcrumbs: true
 slug: ''
-title: linux find command examples
+title: Linux Find Command Examples
 weight: null # 若置顶则为对应数字
 ---
 
