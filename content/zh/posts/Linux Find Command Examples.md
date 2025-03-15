@@ -24,131 +24,131 @@ weight: null # 若置顶则为对应数字
 ---
 
 
-# 1. Find Files by Name
+## 1. Find Files by Name
 ```Linux
 find /home/user/documents -name "example.txt"
 ```
-# 2. Find Files by Extension
+## 2. Find Files by Extension
 ```Linux
 find /var/log -name "*.log"
 ```
-# 3. Find Files modified in the last 7 days
+## 3. Find Files modified in the last 7 days
 ```Linux
 find /etc -mtime -7
 ```
-# 4. find files modified more than 30 days ago
+## 4. find files modified more than 30 days ago
 ```Linux
 find /usr/local -mtime +30
 ```
-# 5. Find and delete files
+## 5. Find and delete files
 ```Linux
 find /tmp -name "oldfile.txt" -delete
 ```
-# 6. Find empty files or directories
+## 6. Find empty files or directories
 ```Linux
 find /var/www/ -empty
 ```
-# 7. Find files larger than 100MB
+## 7. Find files larger than 100MB
 ```Linux
 find /home/user/downloads -size +100MB
 ```
-# 8. Find files owned by a specific user
+## 8. Find files owned by a specific user
 ```Linux
 find /home -user username
 ```
-# 9. Find files with 0644 permissions
+## 9. Find files with 0644 permissions
 ```Linux
 find /etc/-perm 0644
 ```
-# 10. Find files and execute a command (gzip log files)
+## 10. Find files and execute a command (gzip log files)
 ```Linux
 find /var/log -name "*.log" -exec gzip {} \;
 ```
-# 11. Find files and execute a command (delete empty files)
+## 11. Find files and execute a command (delete empty files)
 ```Linux
 find /home/user/documents -type f -empty -exec rm {} \;
 ```
-# 12. Find files and print their details
+## 12. Find files and print their details
 ```Linux
 find /home/user/documents -type f -exec is -lh {} \;
 ```
-# 13. Find files excluding a specific directory
+## 13. Find files excluding a specific directory
 ```Linux
 find / -path "/proc" -prune -o -name "*.conf"
 ```
-# 14. Find files modified in the last 60 minutes
+## 14. Find files modified in the last 60 minutes
 ```Linux
 find /var/www -mmin -60
 ```
-# 15. find and archive files with a specific extension
+## 15. find and archive files with a specific extension
 ```Linux
 -czvf archive.tar.gz
 ```
-# 16. Find symbolic links
+## 16. Find symbolic links
 ```Linux
 find /usr/bin -type l
 ```
-# 17. Find files by lnode number
+## 17. Find files by lnode number
 ```Linux
 find / -inum 456332
 ```
-# 18. Find files and exclude a specific file type
+## 18. Find files and exclude a specific file type
 ```Linux
 find /home/user -not -name "*.txt"
 ```
-# 19. Find files with specific group ownership
+## 19. Find files with specific group ownership
 ```Linux
 find /var/log -group syslog
 ```
-# 20. Find files with specific size range (e.g., 500MB to 100MB)
+## 20. Find files with specific size range (e.g., 500MB to 100MB)
 ```Linux
 find /home/user/downloads -size +50M -size +100MB
 ```
-# 21. Find and sort files by modification time
+## 21. Find and sort files by modification time
 ```Linux
 find /var/log -type f exec ls -lt {} +
 ```
-# 22. Find files modified in the last 2 hours
+## 22. Find files modified in the last 2 hours
 ```Linux
 find /var/log -mmin -120
 ```
-# 23. Find files with specific user and group ownership
+## 23. Find files with specific user and group ownership
 ```Linux
 find /home -user username -group groupname
 ```
-# 24. Find fils with specific file permissions (readable by owner only)
+## 24. Find fils with specific file permissions (readable by owner only)
 ```Linux
 find /var/log -perm 600
 ```
-# 25. Find files larger than 1GB and Delete Them
+## 25. Find files larger than 1GB and Delete Them
 ```Linux
 find /var/log -size +1G -exec rm -f {} \;
 ```
-# 26. Find files and limit depth of search to 1 level
+## 26. Find files and limit depth of search to 1 level
 ```Linux
 find /home/user -maxdepth 1 -name "*.txt"
 ```
-# 27. Find files accessed more than 90 days ago
+## 27. Find files accessed more than 90 days ago
 ```Linux
 find /var/log -atime +90
 ```
-# 28. Find hidden files
+## 28. Find hidden files
 ```Linux
 find /home/user -name ".*"
 ```
-# 29. Find files created more than 1 day ago
+## 29. Find files created more than 1 day ago
 ```Linux
 find /home/user -ctime +1
 ```
-# 30. Find files by their type (e.g., Block Devices)
+## 30. Find files by their type (e.g., Block Devices)
 ```Linux
 find /dev/ -type b
 ```
-# 31. Find files with specific permission and exclude others
+## 31. Find files with specific permission and exclude others
 ```Linux
 find / -perm /a=r -not -perm /a=w
 ```
-# 32. Find files containing a specific string in the name
+## 32. Find files containing a specific string in the name
 ```Linux
 find /home/user -name "*config*"
 ```
