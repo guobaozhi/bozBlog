@@ -11,7 +11,7 @@ cover:
   image: 'posts/cover.jpg'
   relative: true
 date: '2025-03-14'
-description: '' # 为页头简介，省略
+description: 'sql find command' # 为页头简介，省略
 disableShare: true
 draft: false # 未发布时为 true
 hidemeta: false
