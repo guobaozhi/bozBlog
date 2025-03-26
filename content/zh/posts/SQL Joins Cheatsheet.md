@@ -11,7 +11,8 @@ cover:
   image: 'posts/cover.jpg'
   relative: true
 date: '2025-03-14'
-description: '' # 为页头简介，省略
+description: 'sql commands' # 为页头简介，省略
+hidesummary: false
 disableShare: true
 draft: false # 未发布时为 true
 hidemeta: false
@@ -19,6 +20,7 @@ lastmod: '2025-03-14'
 showToc: true
 showbreadcrumbs: true
 slug: ''
+summary: 'list of SQL Joins'
 title:  SQL Joins Cheatsheet
 weight: null # 若置顶则为对应数字
 ---

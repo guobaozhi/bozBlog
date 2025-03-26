@@ -15,10 +15,12 @@ description: '' # 为页头简介，省略
 disableShare: true
 draft: false # 未发布时为 true
 hidemeta: false
-lastmod: '2025-03-14'
+hidesummary: false
+lastmod: '2025-03-26'
 showToc: true
 showbreadcrumbs: true
 slug: ''
+summary: 'list of linux find command examples'
 title: Linux Find Command Examples
 weight: null # 若置顶则为对应数字
 ---
